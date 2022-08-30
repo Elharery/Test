@@ -45,7 +45,7 @@ body{
                         transform: translate(85px);
                 }
         }
-    
+
 .header .continer ul li{
     padding-right: 15px;
     display: inline-block;
@@ -73,6 +73,13 @@ body{
         top: -15px;
     }
 }
+        @media(min-width:1200px){
+            .content .continer .intro-text p 
+            {
+                position: relative;
+                left: 18px;
+            }
+        }
     .content {
 background-image: url(../images/img-1.webp);
     width: 100%;
@@ -95,7 +102,7 @@ background-image: url(../images/img-1.webp);
     width: 246px;
         font-size: 17px;
         position: relative;
-        left: 18px;
+        /* left: 18px; */
         font-weight: 700;
         text-transform: capitalize;
         line-height: 1.5;
