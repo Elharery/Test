@@ -3,107 +3,130 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
+
 /* Classes */
-    .list-style{
-        list-style: none;
-    }
-    .text-center{
-        text-align: center;
-    }
-    .continer{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+.list-style {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.continer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* End Classes */
-:root{
+:root {
     --color: #222;
     --pin-color: royalblue;
 }
+
 /* Start Header */
-.header .continer span{
+.header .continer span {
     color: var(--pin-color);
 }
-    .header .continer{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    @media (max-width:767px){
-        .header .continer .links{
-                margin-bottom: -45px;
-                    margin-right: -50px;
-                    position: relative;
-                    right: 90px;
-                }
-                .header .continer h2{
-                    padding-left: 50%;
-                    padding-bottom: 25px;
-                        transform: translate(85px);
-                }
-        }
 
-.header .continer ul li{
+.header .continer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:767px) {
+    .header .continer .links {
+        margin-bottom: -45px;
+        margin-right: -50px;
+        position: relative;
+        right: 90px;
+        width: 303px;
+    }
+
+    .header .continer h2 {
+        padding-left: 50%;
+        padding-bottom: 25px;
+        transform: translate(85px);
+    }
+}
+
+.header .continer ul li {
     padding-right: 15px;
     display: inline-block;
 }
-.header .continer ul li a{
+
+.header .continer ul li a {
     text-decoration: none;
     color: var(--color);
 }
+
 /* start content */
-@media(max-width:767px){
-    .content .continer .intro-text h2{
-        width: 290px;
+@media(max-width:767px) {
+    .content .continer .intro-text h2 {
+        /* width: 290px;
             position: relative;
-            right: 55px;
-    } 
-    .content .continer .intro-text p{
+            right: 55px; */
+        width: 330px;
         position: relative;
-        left: -40px;
+        right: 85px;
+    }
+
+    .content {
+        width: 416px;
+    }
+
+    .content .continer .intro-text {
+        width: 165px;
+    }
+
+    .content .continer .intro-text p {
+        position: relative;
+        left: -55px;
+        width: 285px;
         color: var(--pin-color);
-    } 
+    }
 }
-@media (min-width:768px) and (max-width:992px){
-    .content .continer .intro-text p{
+
+@media (min-width:768px) and (max-width:992px) {
+    .content .continer .intro-text p {
         position: relative;
         top: -15px;
     }
 }
-        @media(min-width:1200px){
-            .content .continer .intro-text p 
-            {
-                position: relative;
-                left: 18px;
-            }
-        }
-    .content {
-background-image: url(../images/img-1.webp);
+
+.content {
+    background-image: url(../images/img-1.webp);
     width: 100%;
     height: calc(100vh - 67.41px);
     background-size: cover;
     position: relative;
-    }
-    .content .continer .intro-text{
-            width: fit-content;
-                position: absolute;
-                left: 42%;
-                top: 42%;
-                transform: translate(-50px, -50px);
-    }
-    .content .continer .intro-text h2{
-        color: var(--pin-color);
-        font-weight: bolder;
-    }
-    .content .continer .intro-text p{
+}
+
+.content .continer .intro-text {
+    width: fit-content;
+    position: absolute;
+    left: 42%;
+    top: 42%;
+    transform: translate(-50px, -50px);
+}
+
+.content .continer .intro-text h2 {
+    color: var(--pin-color);
+    font-weight: bolder;
+}
+
+.content .continer .intro-text p {
     width: 246px;
-        font-size: 17px;
-        position: relative;
-        /* left: 18px; */
-        font-weight: 700;
-        text-transform: capitalize;
-        line-height: 1.5;
-    }
+    font-size: 17px;
+    position: relative;
+    /* left: 18px; */
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
