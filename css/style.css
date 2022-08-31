@@ -47,7 +47,7 @@ body {
         position: relative;
         right: 90px;
         width: 303px;
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     .header .continer h2 {
         padding-left: 50%;
@@ -67,7 +67,7 @@ body {
 }
 
 /* start content */
-@media(max-width:767px) {
+@media(max-width:600px) {
     .content .continer .intro-text h2 {
         /* width: 290px;
             position: relative;
@@ -114,6 +114,7 @@ body {
     left: 42%;
     top: 42%;
     transform: translate(-50px, -50px);
+    
 }
 
 .content .continer .intro-text h2 {
