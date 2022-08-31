@@ -109,7 +109,7 @@ body {
 }
 
 .content .continer .intro-text {
-    width: fit-content;
+    /* width: fit-content; */
     position: absolute;
     left: 42%;
     top: 42%;
