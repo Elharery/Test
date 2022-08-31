@@ -40,7 +40,7 @@ body {
     align-items: center;
 }
 
-@media (max-width:767px) {
+@media (max-width:500px) {
     .header .continer .links {
         margin-bottom: -45px;
         margin-right: -50px;
@@ -67,7 +67,7 @@ body {
 }
 
 /* start content */
-@media(max-width:600px) {
+@media(max-width:767px) {
     .content .continer .intro-text h2 {
         /* width: 290px;
             position: relative;
